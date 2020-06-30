@@ -1,0 +1,85 @@
+/* reset.css*/
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper {
+    margin: 0 auto;
+    width: 400px;
+}
+
+/* header */
+.header {
+    height: 100px;
+    background-color: #141f40;
+    position: relative;
+}
+
+.header_container {
+    height: 60px;
+    width: 160px;
+    background-color: #ffffff;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+.containers {
+    padding: 10px 0px 10px 10px;
+}
+
+.container {
+    height: 40px;
+    width: 40px;
+    background-color: #a9004b;
+    margin-right: 10px;
+    float: left;
+}
+
+/* main */
+.main_left {
+    height: 250px;
+    width: 150px;
+    background-color: #80bfa8;
+    float: left;
+}
+
+.main_right {
+    height: 250px;
+    width: 250px;
+    background-color: #8c2727;
+    float: left;
+    position: relative;
+}
+
+.main_right_container {
+    position: absolute;
+    top: 40px;
+    left: 40px;
+}
+
+.main_containers {
+    padding: 5px;
+    background-color: #ffffff;
+    margin-bottom: 10px;
+
+}
+
+.main_container {
+    height: 40px;
+    width: 140px;
+    background-color: #ff863f;
+}
+
+.clearfix::after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+/* footer */
+.footer {
+    height: 100px;
+    background-color: #d98d30;
+}
