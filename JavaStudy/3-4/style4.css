@@ -1,0 +1,72 @@
+/* reset.css*/
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* clearfix */
+.clearfix::after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+/* float:left */
+.float {
+    float: left;
+}
+
+.wrapper {
+    margin: 0 auto;
+    width: 350px;
+}
+
+/* 左のブロック */
+.side_top {
+    height: 100px;
+    width: 150px;
+    background-color: #ffff66;
+}
+
+.side_center {
+    height: 150px;
+    width: 150px;
+    background-color: #ff3333;
+}
+
+.side_bottom {
+    height: 100px;
+    width: 150px;
+    background-color: #ff9966;
+}
+
+/* 右のブロック */
+.header {
+    height: 100px;
+    width: 200px;
+    background-color: #666666;
+}
+
+.container_left {
+    height: 150px;
+    width: 100px;
+    background-color: #3366ff;
+}
+
+.container_right {
+    height: 150px;
+    width: 100px;
+    background-color: #669933;
+}
+
+.footer_left {
+    height: 100px;
+    width: 100px;
+    background-color: #ffffcc;
+}
+
+.footer_right {
+    height: 100px;
+    width: 100px;
+    background-color: #330066;
+}
