@@ -1,0 +1,30 @@
+/* 【jspTest.jsp】 */
+.main {
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+/* 【header.jsp】 */
+.header {
+	background-color: gray;
+}
+.header_lovo {
+	display: inline-block;
+	padding: 10px;
+	color: white;
+}
+.header_date {
+	padding: 10px;
+	font-size: 10px;
+}
+
+
+/* 【footer.jsp】 */
+.footer {
+	background-color: gray;
+}
+.footer_logo {
+	display: inline-block;
+	padding: 10px;
+	color: white;
+}
