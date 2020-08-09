@@ -18,7 +18,8 @@ CREATE TABLE Employee(
 -- FIXME: Step-1: 2カラム目のパスワード以外を、ご自身の内容に変更した上で実行してください。
 INSERT INTO Employee VALUES(
     '10311',
-    'ed631e9beaeed993a8efdbab486f5bb3fff7b3a67ddc6b4e9b6e77ff0c4fb2a9',
+    -- パスワード「0000」
+    '3104fe2104a0b0e9deb3942593f2d233db218104bf05c67109898dceae431b61',
     '濱田駿',
     's-hamada@y-i-group.co.jp',
     'Ruby、Java',
